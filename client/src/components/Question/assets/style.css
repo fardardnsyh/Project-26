@@ -1,0 +1,25 @@
+.question .li-content {
+    min-height: 48px;
+    width: 100%;
+}
+
+.question .li-content p {
+    width: 85%;
+}
+
+.question .li-content .buttons {
+    width: 15%;
+    max-width: 45px;
+    min-width: 30px;
+}
+
+.question .li-content .buttons button{
+    width: 50%;
+}
+
+/* media query for small screens */
+/* 
+- wrap the buttons to the next line 
+- justify flex-end
+- 
+*/

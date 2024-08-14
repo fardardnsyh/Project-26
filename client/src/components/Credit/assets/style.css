@@ -1,0 +1,15 @@
+.credit {
+    width: 23%;
+    min-width: 190px;
+    margin: 15px auto;
+}
+
+.credit img {
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.credit h4 {
+    text-transform: uppercase;
+    margin-right: 8px;
+}

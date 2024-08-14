@@ -1,0 +1,12 @@
+.login, .signup {
+    max-width: 350px;
+    width: 100%;
+}
+.login h2, .signup h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.login input, .signup input {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,141 @@
+.single-app .job-info {
+    width: 100%;
+    max-width: 66%;
+}
+
+.single-app .job-info h1 {
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.single-app .job-info h2 {
+    line-height: 1;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.single-app .job-info .company {
+    margin-left: 15px;
+    font-size: 22px;
+    color: var(--text-gray);
+    margin-bottom: 15px;
+}
+
+.single-app .job-info .desc-container {
+    max-height: 375px;
+    overflow-y: hidden;
+    border: 1px solid var(--light-gray);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.single-app .job-info .desc-container p {
+    white-space: break-spaces;
+}
+
+.single-app .job-info .desc-container.active {
+    max-height: unset;
+}
+
+.single-app .job-info .seeMore {
+    cursor: pointer;
+    padding-top: 15px;
+    text-align: right;
+}
+
+.single-app .job-details-container.desktopOnly {
+    width: 100%;
+    max-width: 30%;
+    margin-left: 4%;
+}
+
+.single-app .job-details-container .delete-btn,
+.single-app .job-details-container .edit-btn {
+    width: 100%;
+    max-width: 32px;
+    cursor: pointer;
+}
+
+.single-app .job-details-container .delete-btn {
+    margin-right: 24px;
+}
+
+.single-app .job-details-container.desktopOnly .details h4 {
+    margin-bottom: 10px;
+}
+
+.single-app .job-details-container.mobileOnly .details {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-app .job-details-container.mobileOnly .details h4 {
+    min-width: 200px;
+}
+
+
+.single-app .bottom-content {
+    margin-top: 35px;
+    padding: 0 20px;
+}
+
+.single-app .bottom-content .question-container,
+.single-app .bottom-content .notes {
+    max-width: 50%;
+    width: 100%;
+}
+
+.single-app .link {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    .single-app .job-info {
+        max-width: 100%;
+    }
+
+    .single-app .job-info h2 {
+        margin-top: 25px;
+    }
+
+    .single-app .delete-edit-btns {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .single-app .job-details-container .delete-btn {
+        margin-right: 0;
+    }
+
+    .single-app .job-info .company {
+        margin-bottom: 0;
+    }
+
+    .single-app .job-details-container {
+        margin: 10px 0 15px;
+    }
+
+    .single-app .job-details-container .delete-btn,
+    .single-app .job-details-container .edit-btn {
+        max-width: 24px;
+    }
+
+    .single-app .bottom-content {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .single-app .bottom-content .question-container,
+    .single-app .bottom-content .notes {
+        max-width: 100%;
+    }
+
+    .single-app .bottom-content .question-container {
+        margin-bottom: 25px;
+    }
+
+}

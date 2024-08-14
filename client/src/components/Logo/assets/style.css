@@ -1,0 +1,11 @@
+header .logo span{
+    font-size: 30px;
+    font-weight: bold;
+}
+header .logo span.mobile{
+    font-size: 25px;
+}
+header .logo img {
+    width: 45px;
+    height: 45px;
+}

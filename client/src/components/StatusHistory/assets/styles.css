@@ -1,0 +1,27 @@
+.status-history-comp .status-history {
+    position: relative;
+    min-height: 125px;
+}
+
+.status-history-comp .status-history .line {
+    width: 5px;
+    background-color: var(--light-gray);
+    border-radius: 50px;
+}
+
+.status-history-comp .status-history .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border: 2px solid;
+    z-index: 5;
+}
+
+.stages-bg {
+    position: absolute;
+    width: 25px;
+}
+
+.stages-bg .stage {
+    height: 25px;
+}

@@ -1,0 +1,28 @@
+header {
+    font-size: 25px;
+    background-color: var(--blue);
+    position: relative;
+    z-index: 10;
+}
+
+header .content {
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+
+header img {
+    max-height: 45px;
+}
+
+header .mobileNavMenu {
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 767.98px) {
+    header .mobileNavMenu {
+        display: flex;
+        align-self: center;
+        max-height: 35px;
+    }
+}

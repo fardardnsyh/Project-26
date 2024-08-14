@@ -1,0 +1,28 @@
+button[type='button']:not(.Toastify__close-button),
+button[type='submit']:not(.Toastify__close-button) {
+    cursor: pointer;
+    border-radius: 22px;
+    max-height: 65px;
+    max-width: 190px;
+    width: 100%;
+}
+button[type='button'].blue, button[type='submit'].blue  {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+button[type='button'].primary, 
+button[type='submit'].primary {
+    background-color: #fff;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    color: #fff;
+}
+
+button.disabled {
+    pointer-events: none;
+    cursor: pointer !important;
+    background-color: gray !important;
+}

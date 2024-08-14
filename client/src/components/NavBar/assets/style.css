@@ -1,0 +1,21 @@
+@media screen and (max-width: 767.97px) {
+    header nav {
+        top: 77px;
+        color: #333;
+        height: calc(100vh - 77px);
+        background-color: var(--light-gray);
+        width: 170px;
+    }
+
+    header nav ul {
+        text-align: end;
+        margin-right: 25px;
+    }
+
+    header nav ul button {
+        max-width: 122px !important;
+        align-self: flex-end;
+    }
+
+    header nav a.active { font-weight: 700; }
+}

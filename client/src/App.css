@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap');
+
+:root {
+    --blue: #1E3A8A;
+    --light-blue: #9EA6BE;
+    --white: #fff;
+    --gray: #F3F4F6;
+    --light-gray: #ededed;
+    --primary-text-color: #333;
+    --text-gray: #6b7280;
+}
+
+/* universal styles */
+body {
+    font-family: 'Kanit', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+
+/* general toast styles */
+.Toastify__toast-container {
+    width: 90%;
+    top: 90px;
+}
+.Toastify__close-button {
+    align-self: center;
+}
+
+.desktopOnly {
+    display:block;
+}
+
+.mobileOnly {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .desktopOnly {
+        display: none;
+    }
+
+    .mobileOnly {
+        display: block;
+    }
+}
